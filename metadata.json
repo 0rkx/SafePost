@@ -1,0 +1,5 @@
+{
+  "name": "SafePost ",
+  "description": "A one-click photo safety tool. Upload an image, and SafePost returns a version where sensitive details (faces, license plates, house numbers) are automatically and realistically removed.",
+  "requestFramePermissions": []
+}
