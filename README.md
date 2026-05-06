@@ -1,20 +1,79 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Safepost
 
-# Run and deploy your AI Studio app
+nano banana hackathon!!
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/drive/1TOILmUwlo6f9NmVwuyC3wQwxqB_EAyS4
+This README documents the current implementation of `SafePost`. It is based on the checked-in source files, package manifests, and entry points in the repository.
 
-## Run Locally
+## What It Covers
 
-**Prerequisites:**  Node.js
+- AI-assisted workflow
+- web application UI
+- hackathon prototype
 
+## Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Document intake, upload, and parsing flows
+- Review queues, status tracking, and task/work-item states
+- Image upload, preview, processing, and retry states
+- Gemini/OpenAI integration points for AI-assisted processing
+- SEO, metadata, and deployment-oriented website structure
+- Hackathon prototype structure with rapid full-stack implementation
+
+## Tech Stack
+
+- Vite
+- React
+- TypeScript
+
+## Code Highlights
+
+- Entry points: App.tsx, index.html, index.tsx
+- JavaScript tooling and scripts are declared in package.json.
+
+## Project Structure
+
+- `App.tsx`
+- `index.html`
+- `package.json`
+- `tsconfig.json`
+- `vite.config.ts`
+- `components/ErrorDisplay.tsx`
+- `components/Footer.tsx`
+- `components/Header.tsx`
+- `components/Icons.tsx`
+- `components/ImageDisplay.tsx`
+- `components/ImagePreview.tsx`
+- `components/ImageUploader.tsx`
+- `components/Loader.tsx`
+
+## Getting Started
+
+Clone the repository and install the dependencies for the part of the project you want to run.
+
+### Frontend / Node
+
+```bash
+npm install
+npm run dev
+```
+
+### Available Scripts
+
+- `dev`: `vite`
+- `build`: `vite build`
+- `preview`: `vite preview`
+
+## Environment Variables
+
+The code references these environment keys:
+
+- `API_KEY`
+- `GEMINI_API_KEY`
+
+## Development Notes
+
+- Keep generated files, dependency folders, virtual environments, and build outputs out of commits.
+- Add screenshots or deployment links here when the project is running in production.
+- Update this README when entry points, environment variables, or setup steps change.
